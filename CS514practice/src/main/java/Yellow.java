@@ -88,53 +88,53 @@ public class Yellow {
 
     public static void main(String[] args) throws InterruptedException {
 
-//        System.out.println("P1");
-//        long n = 10000000;
-//
-//        for (long i=0; i<6; i++) {
-//            n = n * 2;
-//            long time = p1(n);
-//            System.out.println("n = " + n + ": " + time + " ms");
-//        }
-//
-//        System.out.println("P2");
-//        n = 1000;
-//
-//        for (long i=0; i<6; i++) {
-//            n = n * 2;
-//            long time = p2(n);
-//            System.out.println("n = " + n + ": " + time + " ms");
-//        }
-//
-//        System.out.println("P3");
-//        n = 100;
-//
-//        for (long i=0; i<4; i++) {
-//            n = n * 2;
-//            long time = p3(n);
-//            System.out.println("n = " + n + ": " + time + " ms");
-//        }
-//
-//        System.out.println("P4");
-//        n = 10000;
-//
-//        for (long i=0; i<4; i++) {
-//            n = n * 2;
-//            long time = p4(n);
-//            System.out.println("n = " + n + ": " + time + " ms");
-//        }
-//
-//        System.out.println("P5");
-//        n = 10;
-//
-//        for (long i=0; i<4; i++) {
-//            n = n * 2;
-//            long time = p5(n);
-//            System.out.println("n = " + n + ": " + time + " ms");
-//        }
+        System.out.println("P1");
+        long n = 10000000;
+
+        for (long i=0; i<6; i++) {
+            n = n * 2;
+            long time = p1(n);
+            System.out.println("n = " + n + ": " + time + " ms");
+        }
+
+        System.out.println("P2");
+        n = 1000;
+
+        for (long i=0; i<6; i++) {
+            n = n * 2;
+            long time = p2(n);
+            System.out.println("n = " + n + ": " + time + " ms");
+        }
+
+        System.out.println("P3");
+        n = 100;
+
+        for (long i=0; i<4; i++) {
+            n = n * 2;
+            long time = p3(n);
+            System.out.println("n = " + n + ": " + time + " ms");
+        }
+
+        System.out.println("P4");
+        n = 10000;
+
+        for (long i=0; i<4; i++) {
+            n = n * 2;
+            long time = p4(n);
+            System.out.println("n = " + n + ": " + time + " ms");
+        }
+
+        System.out.println("P5");
+        n = 10;
+
+        for (long i=0; i<4; i++) {
+            n = n * 2;
+            long time = p5(n);
+            System.out.println("n = " + n + ": " + time + " ms");
+        }
 
         System.out.println("P6");
-        long n = 100;
+        n = 100;
 
         for (long i=0; i<6; i++) {
             n = n + 50;
