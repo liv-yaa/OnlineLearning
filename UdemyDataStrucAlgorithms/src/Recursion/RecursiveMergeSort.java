@@ -75,7 +75,7 @@ public class RecursiveMergeSort {
 
 
 
-        // Else, merge two arrays:
+        // Else, merge two arrays: ///
         merge(input, start, mid, end);
 
 
